@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell");
+
+body {
+	margin: 0px;
+	font-family: 'Cantarell', sans-serif;
+	padding: 0px;
+}
+
+.logo {
+	width: 125px;
+	height: 125px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+nav {
+	float: right;
+	margin: 20px 15px 0px 0px;
+}
+
+nav a {
+	padding: 15px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+
+}
+
+.dropdown-list {
+	display: none;
+	position: absolute;
+	background-color: #EEEEEE;
+	border: 1px solid black;
+}
+
+.dropdown:hover .dropdown-list{
+	display: block;
+}
+
+.dropdown-list a:hover {
+	color: yellow;
+}
+
+.banner {
+	width: 100%;
+	height: 400px;
+}
+
+.container-mission {
+	text-align: center;
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 300px;
+}
+
+.container-mission p {
+	margin-top: 50px;
+}
+
+
+.footer {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 200px;
+	background-color: #3c3c3c;
+}
+
+.footer p {
+	margin-top: 50px;
+}
