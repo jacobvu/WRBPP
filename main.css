@@ -2,13 +2,16 @@
 
 body {
 	margin: 0px;
-	font-family: 'Cantarell', sans-serif;
 	padding: 0px;
+	font-family: 'Cantarell', sans-serif;
+	text-align: center;
 }
 
 .logo {
+	float: left;
 	width: 125px;
 	height: 125px;
+	padding: 10px;
 }
 
 a {
@@ -26,13 +29,12 @@ nav {
 }
 
 nav a {
-	padding: 15px;
+	padding: 10px;
 }
 
 .dropdown {
 	position: relative;
 	display: inline-block;
-
 }
 
 .dropdown-list {
@@ -50,31 +52,58 @@ nav a {
 	color: yellow;
 }
 
-.banner {
+.container-mission,
+.footer,
+.banner,
+.container-join {
 	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.banner img{
 	height: 400px;
+	width: 100%;
+	vertical-align: middle;
 }
 
 .container-mission {
-	text-align: center;
-	background-color: #EEEEEE;
-	width: 100%;
+	background-color: #f7f7f7;
 	height: 300px;
 }
 
-.container-mission p {
-	margin-top: 50px;
+.container-mission > p {
+	margin: 20px 30px 0px 30px;
 }
 
+.container-join {
+	height: 300px;
+}
+
+#first {
+	font-size: 3.5em;
+}
+
+#second {
+	font-size: 1.5em;
+	margin: 0px 20px 0px 20px;
+}
 
 .footer {
-	padding: 0px;
-	margin: 0px;
-	width: 100%;
-	height: 200px;
-	background-color: #3c3c3c;
+	height: auto;
+	background-color: #486A89;
 }
 
 .footer p {
-	margin-top: 50px;
+	padding: 10px;
+	margin: 30px 0px 0px 10px;
+	color: #cccecb;
 }
+
+.social {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+
