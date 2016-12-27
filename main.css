@@ -31,6 +31,10 @@ nav a {
 	padding: 20px;
 }
 
+nav a:hover {
+	background-color: #f7f7f7;
+}
+
 .dropdown {
 	position: relative;
 	display: inline-block;
@@ -41,10 +45,12 @@ nav a {
 	position: absolute;
 	background-color: #EEEEEE;
 	border: 1px solid black;
+	padding: 5px;
 }
 
 .dropdown:hover .dropdown-list{
 	display: block;
+	padding: 10px;
 }
 
 .dropdown-list a:hover {
@@ -98,7 +104,7 @@ span.spacer {
 }
 
 .container-mission {
-	height: auto;
+	height: 200px;
 	padding: 0px 0px 50px 0px;
 }
 
@@ -114,10 +120,11 @@ span.spacer {
 }
 
 .container-join {
-	height: 250px;
+	height: 200px;
 	background-color: #f7f7f7;
 	text-align: center;
 	position: relative;
+	padding: 20px 0px 0px 0px;
 }
 
 #first {
@@ -126,6 +133,12 @@ span.spacer {
 
 #second {
 	
+}
+
+button {
+	padding: 15px;
+	border: 1px solid black;
+	background-color: #f7f7f7;
 }
 
 .footer {
